@@ -1,0 +1,142 @@
+############################# banner ############################
+banner:
+  enable : true
+  title : "Always ready, No time for change."
+  content : "All your vital notifications at just the flick of the wrist, best-in-class software with all the suited applications for your need which gets updated automatically. In this new version, the Soxno SmartBand debuts a stylish new design and a gorgeous 1.54' full touch color display. It also features complete health and activity tracking and can also show call, text & social media notifications, control music playback and much more."
+  image : "images/soxno.png"
+  button: "Buy Now With ₹2899"
+
+############################## product ###########################
+product:
+  name : "Smart watch"
+  image : "images/soxno.png"
+  price : "2899"
+  colors : ["black","white","gray"]
+  sizes : ["small","medium","large"]
+
+############################# Feature ############################
+features:
+  enable : true
+  title : "Our Core Features"
+  image : "images/watch-2.png"
+
+  # feature at the left of the image
+  leftSide:
+    # feature item loop
+  - icon : "tf-ion-arrow-graph-up-right"
+    title : "Smooth Touch"
+    content : "Quick and responsive 1.54' full touch color display makes it easier to read in sunlight."
+    
+    # feature item loop
+  - icon : "tf-ion-ios-rose"
+    title : "Elegant Design"
+    content : "Smooth and curvy finish at the edges adds more refinement to the overall design."
+    
+    # feature item loop
+  - icon : "tf-ion-ios-game-controller-b"
+    title : "Complete Control"
+    content : "Switch music, take calls, all your notifications and more features just a tap away."
+
+
+  # feature at the right of the image
+  rightSide:
+    # feature item loop
+  - icon : "tf-ion-leaf"
+    title : "Super Light"
+    content : "Easy on the wrist and feels comfortable with ergonomical detailing at every curve."
+
+    # feature item loop
+  - icon : "tf-ion-battery-charging"
+    title : "3X Battery Life"
+    content : "More battery life to last for days without a recharge so you can do more in less."
+
+    # feature item loop
+  - icon : "tf-ion-pricetags"
+    title : "Easy Pricing"
+    content : "Value for your money, we care so we deliver quality keeping you at center."
+
+
+############################# promo ############################
+promo:
+  enable : true
+  image : "images/soxno.png"
+  title : "Designed by professional, the benefit for creative gigs"
+  content : "The desire to create is one of the deepest yearnings of the human soul. Creativity doesn't wait for that perfect moment. It fashions its own perfect moments out of ordinary ones. We choose what attitudes we have right now. And it’s a continuing choice."
+
+
+############################# About Product #######################
+aboutProduct:
+  enable : true
+  title : "Why Choose SOXNO Watch?"
+  items:
+    # about product item loop
+    - image : "images/showcase/showcase-4.png"
+      title : "Long lasting battery life."
+      content : "Built-in rechargeable battery which lasts for more than 20 days on a single charge.
+            Fast charging within 15 minutes and more than 1000 recharge battery lifecycles which
+            delivers great battery life for the product."
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"
+        
+    # about product item loop
+    - image : "images/showcase/showcase-3.png"
+      title : "Compatible with most of the apps."
+      content : "Install all the relevant iOS and android apps from your smartphone for the smartwatch.
+            Adds a lot of value to the product with some great apps to track your fitness activity, sleep cycle, 
+            productivity along with many more features."
+      button:
+        enable : true
+        label : "Check Features"
+        link : "#"
+
+
+#################################### Gallery ########################
+gallery:
+  enable : true
+  title : "Checkout some amazing Shorts"
+  # Set the image directory to use as base
+  directory : "images/showcase"
+  # Set the images to show in the gallery
+  images : ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
+
+
+
+################################## call to action ###################
+cta:
+  enable : true
+  bgImage : "images/call-to-action.jpg"
+  title : "Get Product Updates"
+  content : "Subscribe to our newsletter and stay updated on the latest developments and special offers."
+  placeholder : "Your Email Address Here"
+
+
+############################## Testimonial ##########################
+testimonial:
+  enable : true
+  title : "Watch Review"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Ramesh Gupta"
+      designation : "Product Manager"
+      image : "images/review2.jpeg"
+      content : "I had an amazing experience with this product. Helps me a lot to improve my productivity at daily tasks. Saves me a lot of time.
+            Battery life is too good for such a price. The only drawback I found with the product is that it does not support the news app, but still
+            it is a good product and supports most of the other apps which I use frequently. Kudos to the team."
+      
+    # testimonial item loop
+    - name : "Sakshi Jain"
+      designation : "HR Consultant"
+      image : "images/review1.png"
+      content : "Great product at such an amazing price. Initially I thought the quality of the product would have been compromised but I was totally surprised
+            by the product's quality and features. I mostly use it to view my notifications and shuffle music when I am travelling. It also gives the appearance 
+            of an apple watch from a distance and feels good on the wrist.  "
+      
+    # testimonial item loop
+    - name : "Yogesh Agarwal"
+      designation : "Software Engineer"
+      image : "images/review3.jpeg"
+      content : "I found no other product as the Soxno smartwatch after giving a try to most of them. It is the best product which I have come across in
+            this price range, the screen is responsive to touches and swipes. The reminder app works pretty amazingly, it helps me to focus on my tasks. 
+            Not recommended for someone who does not need a smartwatch. Cheers!"
