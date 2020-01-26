@@ -3,4 +3,4 @@ base = "netlify"
 publish = "public"
 
 [build.environment]
-HUGO_VERSION = 0.62
+HUGO_VERSION = "0.62"
