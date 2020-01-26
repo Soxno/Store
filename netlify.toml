@@ -1,5 +1,4 @@
 [build]
-base = "netlify"
 publish = "public"
 
 [build.environment]
