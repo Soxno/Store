@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://www.example.com/"
+baseurl = "/"
 languageCode = "en"
 title = "SOXNO"
 theme = "vex-hugo"
