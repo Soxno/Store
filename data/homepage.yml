@@ -1,7 +1,7 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Always ready, No time for change."
+  title : "Always ready, No time for change. Hello"
   content : "All your vital notifications at just the flick of the wrist, best-in-class software with all the suited applications for your need which gets updated automatically. In this new version, the Soxno SmartBand debuts a stylish new design and a gorgeous 1.54' full touch color display. It also features complete health and activity tracking and can also show call, text & social media notifications, control music playback and much more."
   image : "images/soxno.png"
   button: "Buy Now With ₹2899"
